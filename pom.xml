@@ -59,6 +59,17 @@
         <url>git@github.com:openpreserve/TIFF-Implementation-Checker.git</url>
     </scm>
 
+    <repositories>
+      <repository>
+        <snapshots>
+          <enabled>true</enabled>
+        </snapshots>
+        <id>vera-dev</id>
+        <name>Vera development</name>
+        <url>https://artifactory.openpreservation.org/artifactory/vera-dev</url>
+      </repository>
+    </repositories>
+
     <dependencies>
         <dependency>
             <groupId>org.openpreservation</groupId>
